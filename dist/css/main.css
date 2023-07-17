@@ -16,4 +16,6 @@ body {
   background: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 0%);
   height: 100vh;
+  font-family: League Spartan;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
