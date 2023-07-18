@@ -4,7 +4,7 @@ body {
     background: $White;
     color: $Black;
     height: 100vh;
-    font-family: League Spartan;
+    font-family: 'League Spartan', sans-serif;
     justify-content: center;
 }
 
@@ -13,6 +13,7 @@ h1, h2, h3 {
 }
 
 p {
+    font-size: 12px;
     font-weight: 500;
 }
 
