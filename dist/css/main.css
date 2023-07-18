@@ -4,6 +4,14 @@
   margin: 0;
 }
 
+body {
+  background: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  height: 100vh;
+  font-family: League Spartan;
+  justify-content: center;
+}
+
 h1, h2, h3 {
   font-weight: 700;
 }
@@ -12,10 +20,8 @@ p {
   font-weight: 500;
 }
 
-body {
-  background: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 0%);
-  height: 100vh;
-  font-family: League Spartan;
-  justify-content: center;
+.logo {
+  font-size: small !important;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=main.css.map */
