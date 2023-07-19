@@ -92,6 +92,12 @@ header .navbar ul li a::after:hover {
   margin-top: 1.5rem;
 }
 
+.about {
+  width: 100%;
+  display: flex;
+  margin-top: -10px;
+}
+
 body {
   background: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 0%);
