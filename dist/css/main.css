@@ -38,11 +38,14 @@ header .navbar ul li {
   margin: 0 5px;
   padding-right: 30px;
 }
-header .navbar ul li a {
+header .navbar ul li a::before {
   display: block;
   color: hsl(0, 0%, 100%);
   transition: 0.3s;
   border-bottom: 0;
+}
+header .navbar ul li a::after {
+  color: hsl(0, 0%, 100%);
 }
 header .navbar ul li a::after:hover {
   color: hsl(0, 0%, 100%);

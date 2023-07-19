@@ -29,12 +29,16 @@ header {
                 padding-right: 30px;
 
                 a {
+
+                &::before{
                     display: block;
                     color: $White;
                     transition: 0.3s;
                     border-bottom: 0;
+                }
 
                     &::after{
+                        color: $White;
 
                     &:hover {
                         color: $White;
