@@ -61,6 +61,11 @@ header .navbar ul li a::after:hover {
   height: -moz-fit-content;
   height: fit-content;
 }
+.slider .swiper .swiper-button-prev {
+  background: hsl(0, 0%, 0%);
+  right: 50px;
+  color: hsl(0, 0%, 100%);
+}
 .slider .swiper .swiper-wrapper .swiper-slide {
   width: 50%;
   display: flex;

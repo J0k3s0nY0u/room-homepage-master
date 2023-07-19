@@ -5,6 +5,12 @@
         width: auto;
         height: fit-content;
 
+        .swiper-button-prev {
+            background: $Black;
+            right: 50px;
+            color: $White;
+        }
+
         .swiper-wrapper {
 
             .swiper-slide {
