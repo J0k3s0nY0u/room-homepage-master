@@ -53,6 +53,19 @@ header .navbar ul li a::after:hover {
   transition: ease-in-out;
 }
 
+.slider {
+  top: -18px;
+}
+.slider .swiper {
+  width: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.slider .swiper .swiper-wrapper .swiper-slide {
+  width: 50%;
+  display: flex;
+}
+
 body {
   background: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 0%);
