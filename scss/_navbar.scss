@@ -10,7 +10,9 @@ header {
     left: 50px;
 
     .hamburger {
-        display: flex;
+        display:flex;
+        left: -100px;
+        visibility: hidden;
     }
     .logo {
         font-size: small !important;
@@ -22,12 +24,13 @@ header {
             display: flex;
 
             li {
+                font-size: medium;
+                margin: 0 5px;
+                padding-right: 30px;
+
                 a {
                     display: block;
                     color: $White;
-                    font-size: medium;
-                    margin: 0 5px;
-                    padding-right: 10px;
                     transition: 0.3s;
                     border-bottom: 0;
 

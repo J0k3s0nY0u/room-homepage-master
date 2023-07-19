@@ -22,6 +22,8 @@ header {
 }
 header .hamburger {
   display: flex;
+  left: -100px;
+  visibility: hidden;
 }
 header .logo {
   font-size: small !important;
@@ -31,12 +33,14 @@ header .navbar ul {
   list-style-type: none;
   display: flex;
 }
+header .navbar ul li {
+  font-size: medium;
+  margin: 0 5px;
+  padding-right: 30px;
+}
 header .navbar ul li a {
   display: block;
   color: hsl(0, 0%, 100%);
-  font-size: medium;
-  margin: 0 5px;
-  padding-right: 10px;
   transition: 0.3s;
   border-bottom: 0;
 }
