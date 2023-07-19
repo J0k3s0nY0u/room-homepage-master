@@ -80,8 +80,11 @@ header .navbar ul li a::after:hover {
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words p {
   margin-left: 4rem;
-  margin-right: 4rem;
+  margin-right: 4.5rem;
   margin-top: 1.5rem;
+  word-spacing: 0.1rem;
+  line-height: 0.8rem;
+  color: hsl(0, 0%, 63%);
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn {
   margin-left: 4rem;
