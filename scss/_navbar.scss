@@ -1,0 +1,38 @@
+header {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $White;
+    z-index: 1;
+
+    .hamburger {
+        display: flex;
+    }
+    .logo {
+        font-size: small !important;
+        font-weight: bold;
+    }
+    .navbar {
+        ul {
+            display: flex;
+
+            li {
+                a {
+                    display: block;
+                    color: $White;
+                    font-size: small;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $White;
+                        border-bottom: 1;
+                        transition: ease-in-out;
+                    }
+                }
+
+            }
+        }
+    }
+}

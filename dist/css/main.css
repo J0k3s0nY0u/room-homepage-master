@@ -4,6 +4,39 @@
   margin: 0;
 }
 
+header {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(0, 0%, 100%);
+  z-index: 1;
+}
+header .hamburger {
+  display: flex;
+}
+header .logo {
+  font-size: small !important;
+  font-weight: bold;
+}
+header .navbar ul {
+  display: flex;
+}
+header .navbar ul li a {
+  display: block;
+  color: hsl(0, 0%, 100%);
+  font-size: small;
+  transition: 0.3s;
+}
+header .navbar ul li a:hover {
+  color: hsl(0, 0%, 100%);
+  border-bottom: 1;
+  transition: ease-in-out;
+}
+
 body {
   background: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 0%);
@@ -19,10 +52,4 @@ h1, h2, h3 {
 p {
   font-size: 12px;
   font-weight: 500;
-}
-
-.logo {
-  font-size: small !important;
-  font-weight: bold;
-  color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=main.css.map */
