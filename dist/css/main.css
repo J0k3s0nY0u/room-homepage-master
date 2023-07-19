@@ -2,6 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  z-index: 0;
+  position: relative;
 }
 
 header {
@@ -14,6 +17,8 @@ header {
   justify-content: space-between;
   color: hsl(0, 0%, 100%);
   z-index: 1;
+  top: 50px;
+  left: 50px;
 }
 header .hamburger {
   display: flex;
@@ -23,17 +28,21 @@ header .logo {
   font-weight: bold;
 }
 header .navbar ul {
+  list-style-type: none;
   display: flex;
 }
 header .navbar ul li a {
   display: block;
   color: hsl(0, 0%, 100%);
-  font-size: small;
+  font-size: medium;
+  margin: 0 5px;
+  padding-right: 10px;
   transition: 0.3s;
+  border-bottom: 0;
 }
-header .navbar ul li a:hover {
+header .navbar ul li a::after:hover {
   color: hsl(0, 0%, 100%);
-  border-bottom: 1rem solid;
+  border-bottom: 2px solid;
   transition: ease-in-out;
 }
 

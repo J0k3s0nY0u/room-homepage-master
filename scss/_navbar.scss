@@ -6,6 +6,8 @@ header {
     justify-content: space-between;
     color: $White;
     z-index: 1;
+    top: 50px;
+    left: 50px;
 
     .hamburger {
         display: flex;
@@ -16,21 +18,29 @@ header {
     }
     .navbar {
         ul {
+            list-style-type: none;
             display: flex;
 
             li {
                 a {
                     display: block;
                     color: $White;
-                    font-size: small;
+                    font-size: medium;
+                    margin: 0 5px;
+                    padding-right: 10px;
                     transition: 0.3s;
+                    border-bottom: 0;
+
+                    &::after{
 
                     &:hover {
                         color: $White;
-                        border-bottom: 1rem solid;
+                        
+                        border-bottom: 2px solid;
                         transition: ease-in-out;
                     }
                 }
+            }
 
             }
         }

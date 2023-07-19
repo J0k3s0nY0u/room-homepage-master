@@ -7,6 +7,9 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    z-index: 0;
+    position: relative;
 }
 
 @mixin desktop {
