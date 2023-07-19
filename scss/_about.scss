@@ -7,11 +7,13 @@
         justify-content: center;
 
         h2 {
+            text-transform: capitalize;
             font-weight: 600;
-            font-size:large;
+            font-size: smaller;
             margin-left: 2.5rem;
             margin-right: 2.5rem;
             margin-top: 3rem;
+            letter-spacing: 0.2rem;
         }
 
         p {
