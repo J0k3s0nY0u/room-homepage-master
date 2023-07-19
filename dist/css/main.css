@@ -101,7 +101,7 @@ header .navbar ul li a::after:hover {
   justify-content: center;
 }
 .about__words h2 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 600;
   font-size: smaller;
   margin-left: 2.5rem;
