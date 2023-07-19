@@ -10,6 +10,34 @@
             .swiper-slide {
                 width: 50%;
                 display: flex;
+
+                .img-div {
+                    height: 20rem;
+                }
+
+                .words {
+                    height: 20rem;
+                    justify-content: center;
+
+                    h1 {
+                        font-size:xx-large;
+                        margin-left: 4rem;
+                        margin-right: 4rem;
+                        margin-top: 3rem;
+                    }
+
+                    p {
+                        margin-left: 4rem;
+                        margin-right: 4rem;
+                        margin-top: 1.5rem;
+                    }
+
+                    .shop-btn {
+                        margin-left: 4rem;
+                        margin-right: 4rem;
+                        margin-top: 1.5rem;
+                    }
+                }
             }
         }
     }

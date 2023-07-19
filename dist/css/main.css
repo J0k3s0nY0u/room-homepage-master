@@ -65,6 +65,29 @@ header .navbar ul li a::after:hover {
   width: 50%;
   display: flex;
 }
+.slider .swiper .swiper-wrapper .swiper-slide .img-div {
+  height: 20rem;
+}
+.slider .swiper .swiper-wrapper .swiper-slide .words {
+  height: 20rem;
+  justify-content: center;
+}
+.slider .swiper .swiper-wrapper .swiper-slide .words h1 {
+  font-size: xx-large;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 3rem;
+}
+.slider .swiper .swiper-wrapper .swiper-slide .words p {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1.5rem;
+}
+.slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1.5rem;
+}
 
 body {
   background: hsl(0, 0%, 100%);
