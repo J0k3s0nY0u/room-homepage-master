@@ -2,4 +2,25 @@
     width: 100%;
     display: flex;
     margin-top: -18px;
+
+    &__words {
+        justify-content: center;
+
+        h2 {
+            font-weight: 600;
+            font-size:large;
+            margin-left: 2.5rem;
+            margin-right: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        p {
+            margin-left: 2.5rem;
+            margin-right: 2.5rem;
+            margin-top: 1rem;
+            word-spacing: 0.1rem;
+            line-height: 0.8rem;
+            color: $Dark-Gray;
+        }
+    }
 }

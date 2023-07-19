@@ -97,6 +97,24 @@ header .navbar ul li a::after:hover {
   display: flex;
   margin-top: -18px;
 }
+.about__words {
+  justify-content: center;
+}
+.about__words h2 {
+  font-weight: 600;
+  font-size: large;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 3rem;
+}
+.about__words p {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 1rem;
+  word-spacing: 0.1rem;
+  line-height: 0.8rem;
+  color: hsl(0, 0%, 63%);
+}
 
 body {
   background: hsl(0, 0%, 100%);
