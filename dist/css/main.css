@@ -101,8 +101,10 @@ header .navbar ul li a::after:hover {
 }
 .slider .swiper .swiper-button-prev {
   padding: 20px;
-  background: hsl(0, 0%, 0%);
+  background: url("./dist/images/icon-angle-left.svg");
+  background-size: cover;
   top: 50rem;
+  translateX: -500rem;
 }
 
 .about {
