@@ -5,12 +5,6 @@
         width: auto;
         height: fit-content;
 
-        .swiper-button-prev {
-            background: $Black;
-            right: 50px;
-            color: $White;
-        }
-
         .swiper-wrapper {
 
             .swiper-slide {
@@ -57,6 +51,12 @@
                     }
                 }
             }
+        }
+
+        .swiper-button-prev {
+            padding: 20px;
+            background: $Black;
+            top: 50rem;
         }
     }
 }

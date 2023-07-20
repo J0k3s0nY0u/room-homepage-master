@@ -61,11 +61,6 @@ header .navbar ul li a::after:hover {
   height: -moz-fit-content;
   height: fit-content;
 }
-.slider .swiper .swiper-button-prev {
-  background: hsl(0, 0%, 0%);
-  right: 50px;
-  color: hsl(0, 0%, 100%);
-}
 .slider .swiper .swiper-wrapper .swiper-slide {
   width: 50%;
   display: flex;
@@ -103,6 +98,11 @@ header .navbar ul li a::after:hover {
 .slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn:hover {
   letter-spacing: 0.5rem;
   color: hsl(0, 0%, 27%);
+}
+.slider .swiper .swiper-button-prev {
+  padding: 20px;
+  background: hsl(0, 0%, 0%);
+  top: 50rem;
 }
 
 .about {
