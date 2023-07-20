@@ -145,4 +145,8 @@ h1, h2, h3 {
 p {
   font-size: 12px;
   font-weight: 500;
+}
+
+a {
+  color: hsl(0, 0%, 0%);
 }/*# sourceMappingURL=main.css.map */
