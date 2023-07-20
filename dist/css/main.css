@@ -99,13 +99,6 @@ header .navbar ul li a::after:hover {
   letter-spacing: 0.5rem;
   color: hsl(0, 0%, 27%);
 }
-.slider .swiper .swiper-button-prev {
-  padding: 20px;
-  background: url("./dist/images/icon-angle-left.svg");
-  background-size: cover;
-  top: 50rem;
-  translateX: -500rem;
-}
 
 .about {
   width: 100%;
