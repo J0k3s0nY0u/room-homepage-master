@@ -46,12 +46,13 @@
                         word-spacing: 0.3rem;
                         margin-left: 4rem;
                         margin-right: 4rem;
-                        margin-top: 1.5rem;
                         font-size: small;
                         color: $Black;
+                        top: 1rem;
 
-                        &__words {
-                            color: $Black;
+                        &:hover {
+                            letter-spacing: 0.5rem;
+                            color: $Very-Dark-Gray;
                         }
                     }
                 }

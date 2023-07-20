@@ -96,12 +96,13 @@ header .navbar ul li a::after:hover {
   word-spacing: 0.3rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  margin-top: 1.5rem;
   font-size: small;
   color: hsl(0, 0%, 0%);
+  top: 1rem;
 }
-.slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn__words {
-  color: hsl(0, 0%, 0%);
+.slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn:hover {
+  letter-spacing: 0.5rem;
+  color: hsl(0, 0%, 27%);
 }
 
 .about {
