@@ -106,22 +106,24 @@ header .navbar ul li a:hover {
   color: hsl(0, 0%, 27%);
 }
 .slider .swiper-button-prev {
+  color: hsl(0, 0%, 100%);
   width: -moz-fit-content;
   width: fit-content;
   border: 0.5rem hsl(0, 0%, 0%);
   position: relative;
   background: hsl(0, 0%, 0%);
-  transform: translate(2268%, -505%);
+  transform: translate(3672%, -505%);
 }
 .slider .swiper-button-prev:hover {
   background: hsl(0, 0%, 27%);
 }
 .slider .swiper-button-next {
+  color: hsl(0, 0%, 100%);
   width: -moz-fit-content;
   width: fit-content;
   position: relative;
   background: hsl(0, 0%, 0%);
-  transform: translate(2425%, -555%);
+  transform: translate(3870%, -555%);
 }
 .slider .swiper-button-next:hover {
   background: hsl(0, 0%, 27%);
