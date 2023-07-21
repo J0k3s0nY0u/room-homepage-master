@@ -56,22 +56,22 @@
     }
 
     .swiper-button-prev {
-        color: $White;
+        color: $Black;
         width: fit-content;
         position: relative;
         background: $Black;
-        transform: translate(3672%, -505%);
+        transform: translate(2268%, -505%);
 
         &:hover {
             background: $Very-Dark-Gray;
         }
     }
     .swiper-button-next {
-        color: $White;
+        color: $Black;
         width: fit-content;
         position: relative;
         background: $Black;
-        transform: translate(3870%, -555%);
+        transform: translate(2450%, -555%);
 
         &:hover {
             background: $Very-Dark-Gray;
