@@ -59,6 +59,7 @@ header .navbar ul li a:hover {
 }
 
 .slider {
+  height: 400px;
   top: -18px;
 }
 .slider .swiper {
@@ -103,6 +104,17 @@ header .navbar ul li a:hover {
 .slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn:hover {
   letter-spacing: 0.5rem;
   color: hsl(0, 0%, 27%);
+}
+.slider .swiper-button-prev {
+  border: 0.5rem hsl(0, 0%, 0%);
+  position: relative;
+  background: hsl(0, 0%, 0%);
+  transform: translate(3095%, -505%);
+}
+.slider .swiper-button-next {
+  position: relative;
+  background: hsl(0, 0%, 0%);
+  transform: translate(3285%, -550%);
 }
 
 .about {

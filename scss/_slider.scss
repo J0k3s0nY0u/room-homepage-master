@@ -1,4 +1,5 @@
 .slider {
+    height: 400px;
     top: -18px;
 
     .swiper {
@@ -52,6 +53,17 @@
                 }
             }
         }
+    }
 
+    .swiper-button-prev {
+        border: 0.5rem $Black;
+        position: relative;
+        background: $Black;
+        transform: translate(3095%, -505%);
+    }
+    .swiper-button-next {
+        position: relative;
+        background: $Black;
+        transform: translate(3285%, -550%);
     }
 }
