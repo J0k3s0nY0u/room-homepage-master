@@ -29,24 +29,27 @@ header {
                 padding-right: 30px;
 
                 a {
-
-                &::before{
-                    display: block;
                     color: $White;
                     transition: 0.3s;
                     border-bottom: 0;
-                }
 
                     &::after{
                         color: $White;
+                    }
 
                     &:hover {
                         color: $White;
                         
+                        content: "";
                         border-bottom: 2px solid;
                         transition: ease-in-out;
+                        margin: 0 auto;
+                        width: 50%;
+                        border-left: 5px;
+                        border-right: 15px;
+                        padding-top: 20px;
                     }
-                }
+                
             }
 
             }

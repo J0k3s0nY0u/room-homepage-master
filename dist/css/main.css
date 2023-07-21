@@ -38,8 +38,7 @@ header .navbar ul li {
   margin: 0 5px;
   padding-right: 30px;
 }
-header .navbar ul li a::before {
-  display: block;
+header .navbar ul li a {
   color: hsl(0, 0%, 100%);
   transition: 0.3s;
   border-bottom: 0;
@@ -47,10 +46,16 @@ header .navbar ul li a::before {
 header .navbar ul li a::after {
   color: hsl(0, 0%, 100%);
 }
-header .navbar ul li a::after:hover {
+header .navbar ul li a:hover {
   color: hsl(0, 0%, 100%);
+  content: "";
   border-bottom: 2px solid;
   transition: ease-in-out;
+  margin: 0 auto;
+  width: 50%;
+  border-left: 5px;
+  border-right: 15px;
+  padding-top: 20px;
 }
 
 .slider {
