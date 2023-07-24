@@ -1,4 +1,8 @@
 @include mobile {
+    body {
+        height: 700rem;
+    }
+
     header {
         .logo {
             padding: auto;
@@ -33,6 +37,7 @@
 
     .about {
         flex-direction: column;
+        margin-top: auto;
     }
     
 }
