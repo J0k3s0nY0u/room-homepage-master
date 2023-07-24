@@ -183,6 +183,22 @@ header .navbar ul li a:hover {
     height: fit-content;
     flex-direction: column;
   }
+  .slider .swiper .swiper-wrapper .swiper-slide .words {
+    height: 24rem;
+  }
+  .slider .swiper .swiper-wrapper .swiper-slide .words h1 {
+    top: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .slider .swiper .swiper-wrapper .swiper-slide .words p {
+    top: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn {
+    top: 100px;
+  }
   .slider .swiper-button-prev {
     transform: translate(300%, -505%);
   }

@@ -22,6 +22,26 @@
                 .swiper-slide {
                     height: fit-content;
                     flex-direction: column;
+
+                    .words {
+                        height: 24rem;
+                        
+                        h1 {
+                            top: 50px;
+                            margin-left: 2rem;
+                            margin-right: 2rem;
+                        }
+
+                        p {
+                            top: 50px;
+                            margin-left: 2rem;
+                            margin-right: 2rem;
+                        }
+
+                        .shop-btn {
+                            top: 100px;
+                        }
+                    }
                 }   
             }
         }
