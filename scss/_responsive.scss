@@ -16,9 +16,11 @@
     }
 
     .slider {
+        height: fit-content;
         .swiper {
             .swiper-wrapper {
                 .swiper-slide {
+                    height: fit-content;
                     flex-direction: column;
                 }   
             }

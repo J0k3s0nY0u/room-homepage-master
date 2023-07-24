@@ -58,8 +58,7 @@ header .navbar ul li a:hover {
 }
 
 .slider {
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 400px;
   width: 100%;
   top: -18px;
   padding: auto;
@@ -175,7 +174,13 @@ header .navbar ul li a:hover {
   header .navbar {
     visibility: hidden;
   }
+  .slider {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   .slider .swiper .swiper-wrapper .swiper-slide {
+    height: -moz-fit-content;
+    height: fit-content;
     flex-direction: column;
   }
   .slider .swiper-button-prev {
