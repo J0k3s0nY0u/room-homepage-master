@@ -58,7 +58,8 @@ header .navbar ul li a:hover {
 }
 
 .slider {
-  height: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 100%;
   top: -18px;
   padding: auto;
@@ -69,6 +70,8 @@ header .navbar ul li a:hover {
   height: fit-content;
 }
 .slider .swiper .swiper-wrapper .swiper-slide {
+  height: -moz-fit-content;
+  height: fit-content;
   width: 50%;
   display: flex;
 }
@@ -136,6 +139,8 @@ header .navbar ul li a:hover {
 }
 
 .about {
+  height: -moz-fit-content;
+  height: fit-content;
   width: 99.5%;
   display: flex;
   margin-top: -18px;
