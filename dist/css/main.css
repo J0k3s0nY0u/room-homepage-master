@@ -22,7 +22,6 @@ header {
 }
 header .hamburger {
   display: flex;
-  left: -100px;
   visibility: hidden;
 }
 header .logo {
@@ -155,8 +154,13 @@ header .navbar ul li a:hover {
 }
 
 @media screen and (min-width: 375px) {
-  .navbar {
-    visibility: hidden;
+  header .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+  }
+  header .hamburger {
+    visibility: visible;
   }
 }
 body {

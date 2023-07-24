@@ -12,15 +12,16 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
     position: relative;
 }
 
-@mixin desktop {
-    @media screen and (min-width: 1440px) {
-        @content;
-    }
-}
-
 @mixin mobile {
     @media screen and (min-width: 375px) {
         @content;
     }
 }
+@mixin desktop {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
+
+
 

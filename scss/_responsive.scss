@@ -1,5 +1,13 @@
 @include mobile {
-    .navbar {
-        visibility: hidden;
+    header {
+        .logo {
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+        }
+        .hamburger {
+            visibility: visible;
+        }
     }
+    
 }
