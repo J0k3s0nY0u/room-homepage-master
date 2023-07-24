@@ -17,6 +17,12 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
         @content;
     }
 }
+@mixin tablet {
+    @media screen and (max-width:1024px) {
+        @content;
+    }
+}
+
 @mixin desktop {
     @media screen and (min-width: 1600px) {
         @content;

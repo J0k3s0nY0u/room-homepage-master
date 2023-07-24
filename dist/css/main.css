@@ -157,9 +157,6 @@ header .navbar ul li a:hover {
 }
 
 @media screen and (max-width: 775px) {
-  body {
-    height: 700rem;
-  }
   header .logo {
     padding: auto;
     position: absolute;
@@ -183,8 +180,13 @@ header .navbar ul li a:hover {
     transform: translate(400%, -505%);
   }
   .about {
+    align-items: center;
     flex-direction: column;
-    margin-top: auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  header {
+    top: auto;
   }
 }
 body {
