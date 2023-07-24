@@ -1,8 +1,10 @@
 @include mobile {
     header {
         .logo {
+            padding: auto;
             position: absolute;
-            left: 50%;
+            left: 5%;
+            right: inherit;
             margin-left: 50%;
         }
         .hamburger {
@@ -17,9 +19,20 @@
         .swiper {
             .swiper-wrapper {
                 .swiper-slide {
+                    flex-direction: column;
                 }   
             }
         }
+        .swiper-button-prev {
+            transform: translate(300%, -505%);
+        }
+        .swiper-button-next {
+            transform: translate(400%, -505%);
+        }
+    }
+
+    .about {
+        flex-direction: column;
     }
     
 }

@@ -61,6 +61,7 @@ header .navbar ul li a:hover {
   height: 400px;
   width: 100%;
   top: -18px;
+  padding: auto;
 }
 .slider .swiper {
   width: auto;
@@ -157,8 +158,10 @@ header .navbar ul li a:hover {
 
 @media screen and (max-width: 775px) {
   header .logo {
+    padding: auto;
     position: absolute;
-    left: 50%;
+    left: 5%;
+    right: inherit;
     margin-left: 50%;
   }
   header .hamburger {
@@ -166,6 +169,18 @@ header .navbar ul li a:hover {
   }
   header .navbar {
     visibility: hidden;
+  }
+  .slider .swiper .swiper-wrapper .swiper-slide {
+    flex-direction: column;
+  }
+  .slider .swiper-button-prev {
+    transform: translate(300%, -505%);
+  }
+  .slider .swiper-button-next {
+    transform: translate(400%, -505%);
+  }
+  .about {
+    flex-direction: column;
   }
 }
 body {
