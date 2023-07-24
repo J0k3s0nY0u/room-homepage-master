@@ -10,6 +10,7 @@ body {
     height: 100vh;
     font-family: 'League Spartan', sans-serif;
     justify-content: center;
+    object-fit: scale-down;
 }
 
 h1, h2, h3 {
@@ -25,5 +26,8 @@ a {
     color: $Black;
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+    }
 

@@ -16,7 +16,13 @@
                 .img-div {
                     display: block;
                     height: 20rem;
-                    width: auto;
+                    width: 2190px;
+                    
+                    img {
+                        height: 400px;
+                        width: 100%;
+                        object-fit: fill;
+                    }
                 }
 
                 .words {

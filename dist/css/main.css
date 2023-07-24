@@ -72,7 +72,13 @@ header .navbar ul li a:hover {
 .slider .swiper .swiper-wrapper .swiper-slide .img-div {
   display: block;
   height: 20rem;
-  width: auto;
+  width: 2190px;
+}
+.slider .swiper .swiper-wrapper .swiper-slide .img-div img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words {
   position: relative;
@@ -161,7 +167,7 @@ header .navbar ul li a:hover {
   color: hsl(0, 0%, 63%);
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 775px) {
   header .logo {
     padding: auto;
     position: absolute;
@@ -211,7 +217,7 @@ header .navbar ul li a:hover {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1600px) {
   header {
     top: auto;
   }
@@ -222,6 +228,8 @@ body {
   height: 100vh;
   font-family: "League Spartan", sans-serif;
   justify-content: center;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 h1, h2, h3 {
@@ -235,4 +243,9 @@ p {
 
 a {
   color: hsl(0, 0%, 0%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
