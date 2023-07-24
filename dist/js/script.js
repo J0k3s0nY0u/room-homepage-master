@@ -1,10 +1,5 @@
 
-hamburger = document.querySelector('.hamburger');
-hamburger.onClick = ()=>{
-    navBar = document.querySelector('.navbar');
-    navBar.classList.toggle('active');
-}
-
+const hamburger = document.querySelector('.hamburger');
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',

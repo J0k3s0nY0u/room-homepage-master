@@ -8,6 +8,14 @@
         .hamburger {
             visibility: visible;
         }
+        .navbar {
+            visibility: hidden;
+        }
     }
     
+}
+@include desktop {
+    header {
+
+    }
 }
