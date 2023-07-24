@@ -12,6 +12,18 @@
             visibility: hidden;
         }
     }
+
+    .slider {
+        .swiper {
+            .&-wrapper {
+                .swiper-slide {
+                    width: fit-content;
+                    height: 100vh;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
     
 }
 @include desktop {
