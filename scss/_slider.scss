@@ -1,5 +1,6 @@
 .slider {
     height: 400px;
+    width: 100%;
     top: -18px;
 
     .swiper {
@@ -15,16 +16,19 @@
                 .img-div {
                     display: flex;
                     height: 20rem;
+                    width: auto;
                 }
 
                 .words {
+                    position: relative;
                     display: flex;
                     height: 20rem;
+                    width: fit-content;
                     justify-content: center;
 
                     h1 {
                         font-size:xx-large;
-                        margin-left: 4rem;
+                        margin-left: 2rem;
                         margin-right: 4rem;
                         margin-top: 3rem;
                     }

@@ -59,6 +59,7 @@ header .navbar ul li a:hover {
 
 .slider {
   height: 400px;
+  width: 100%;
   top: -18px;
 }
 .slider .swiper {
@@ -73,14 +74,19 @@ header .navbar ul li a:hover {
 .slider .swiper .swiper-wrapper .swiper-slide .img-div {
   display: flex;
   height: 20rem;
+  width: auto;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words {
+  position: relative;
+  display: flex;
   height: 20rem;
+  width: -moz-fit-content;
+  width: fit-content;
   justify-content: center;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words h1 {
   font-size: xx-large;
-  margin-left: 4rem;
+  margin-left: 2rem;
   margin-right: 4rem;
   margin-top: 3rem;
 }
