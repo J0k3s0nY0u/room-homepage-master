@@ -200,10 +200,10 @@ header .navbar ul li a:hover {
     top: 100px;
   }
   .slider .swiper-button-prev {
-    transform: translate(300%, -505%);
+    transform: translate(1080%, -836%);
   }
   .slider .swiper-button-next {
-    transform: translate(400%, -505%);
+    transform: translate(1240%, -886%);
   }
   .about {
     align-items: center;
