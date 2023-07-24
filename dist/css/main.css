@@ -85,15 +85,19 @@ header .navbar ul li a:hover {
   width: -moz-fit-content;
   width: fit-content;
   justify-content: center;
-  margin-left: 3rem;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words h1 {
   font-size: xx-large;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words p {
   word-spacing: 0.1rem;
   line-height: 0.8rem;
   color: hsl(0, 0%, 63%);
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn {
   letter-spacing: 0.3rem;
