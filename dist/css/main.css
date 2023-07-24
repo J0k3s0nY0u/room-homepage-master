@@ -72,13 +72,14 @@ header .navbar ul li a:hover {
   display: flex;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .img-div {
-  display: flex;
+  display: block;
   height: 20rem;
   width: auto;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words {
   position: relative;
   display: flex;
+  flex-direction: column;
   height: 20rem;
   width: -moz-fit-content;
   width: fit-content;
@@ -86,14 +87,8 @@ header .navbar ul li a:hover {
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words h1 {
   font-size: xx-large;
-  margin-left: 2rem;
-  margin-right: 4rem;
-  margin-top: 3rem;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words p {
-  margin-left: 4rem;
-  margin-right: 4.5rem;
-  margin-top: 1.5rem;
   word-spacing: 0.1rem;
   line-height: 0.8rem;
   color: hsl(0, 0%, 63%);
