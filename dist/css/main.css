@@ -85,6 +85,7 @@ header .navbar ul li a:hover {
   width: -moz-fit-content;
   width: fit-content;
   justify-content: center;
+  margin-left: 3rem;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words h1 {
   font-size: xx-large;
@@ -156,7 +157,7 @@ header .navbar ul li a:hover {
   color: hsl(0, 0%, 63%);
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 575px) {
   header .logo {
     padding: auto;
     position: absolute;
