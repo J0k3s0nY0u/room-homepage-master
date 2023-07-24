@@ -71,6 +71,7 @@ header .navbar ul li a:hover {
   display: flex;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .img-div {
+  display: flex;
   height: 20rem;
 }
 .slider .swiper .swiper-wrapper .swiper-slide .words {
