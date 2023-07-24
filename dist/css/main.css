@@ -64,11 +64,6 @@ header .navbar ul li a:hover {
   top: -18px;
   padding: auto;
 }
-.slider .swiper {
-  width: auto;
-  height: -moz-fit-content;
-  height: fit-content;
-}
 .slider .swiper .swiper-wrapper .swiper-slide {
   height: -moz-fit-content;
   height: fit-content;
