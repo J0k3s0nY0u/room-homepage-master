@@ -140,11 +140,10 @@ header .navbar ul li a:hover {
 }
 
 .about {
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 240px;
   width: 99.5%;
   display: flex;
-  margin-top: -18px;
+  transform: translateY(-17%);
 }
 .about__words {
   justify-content: center;
