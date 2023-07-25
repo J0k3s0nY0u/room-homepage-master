@@ -1,26 +1,24 @@
 
 const hamburger = document.querySelector(".hamburger");
 const closeBtn = document.querySelector(".close");
-const nav = document.querySelector('.navbar');
+const navBar = document.querySelector('.navbar');
 const menu = document.querySelector('.navbar__menu');
 const navList = document.querySelector('.navbar__list');
 
 let showMenu = false;
 
-hamburger.addEventListener('click', toggleNav);
-
-toggleNav = ()=>{
+hamburger.addEventListener('click', toggleNav = ()=>{
   if(showMenu) {
     hamburger.classList.add('open');
     closeBtn.classList.add('open');
-    nav.classList.add('open');
+    navBar.classList.add('open');
     menu.classList.add('open');
     navList.classList.add('open');
   } else {
     hamburger.classList.remove('open');
     closeBtn.classList.remove('open');
-    nav.classList.remove('open');
+    navBar.classList.remove('open');
     menu.classList.remove('open');
     navList.classList.remove('open');
   }
-};
+});

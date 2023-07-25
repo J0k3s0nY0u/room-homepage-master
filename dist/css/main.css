@@ -24,8 +24,14 @@ header .close {
   display: flex;
   visibility: hidden;
 }
+header .close.open {
+  visibility: visible;
+}
 header .hamburger {
   display: flex;
+  visibility: hidden;
+}
+header .hamburger.open {
   visibility: hidden;
 }
 header .logo {

@@ -12,11 +12,19 @@ header {
     .close {
         display: flex;
         visibility: hidden;
+
+        &.open {
+            visibility: visible;
+        }
     }
 
     .hamburger {
         display:flex;
         visibility: hidden;
+
+        &.open {
+            visibility: hidden;
+        }
     }
     .logo {
         font-size: small !important;
