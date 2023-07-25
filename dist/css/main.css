@@ -209,26 +209,22 @@ header .navbar ul li a:hover {
     width: fit-content;
   }
   .slider .swiper .swiper-wrapper .swiper-slide .words {
+    top: -100px;
     height: 24rem;
   }
   .slider .swiper .swiper-wrapper .swiper-slide .words h1 {
-    top: 50px;
     margin-left: 2rem;
     margin-right: 2rem;
   }
   .slider .swiper .swiper-wrapper .swiper-slide .words p {
-    top: 50px;
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  .slider .swiper .swiper-wrapper .swiper-slide .words .shop-btn {
-    top: 100px;
-  }
   .slider .swiper-button-prev {
-    transform: translate(-1080%, -836%);
+    transform: translate(-265%, -1150%);
   }
   .slider .swiper-button-next {
-    transform: translate(-1240%, -886%);
+    transform: translate(0%, -1150%);
   }
   .about {
     height: -moz-fit-content;
@@ -236,6 +232,13 @@ header .navbar ul li a:hover {
     width: 100%;
     align-items: center;
     flex-direction: column;
+  }
+  .about__image {
+    margin-top: -30px;
+    width: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    bottom: -40px;
   }
 }
 @media screen and (max-width: 1600px) {
