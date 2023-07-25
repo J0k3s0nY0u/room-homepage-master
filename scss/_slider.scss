@@ -2,7 +2,6 @@
     height: 400px;
     width: 100%;
     top: -18px;
-    padding: auto;
 
     .swiper {
 
@@ -73,7 +72,7 @@
         position: relative;
         background: $Black;
         float: right;
-      //  transform: translate(2268%, -505%);
+        transform: translate(-1328%, -505%);
 
         &:hover {
             background: $Very-Dark-Gray;
@@ -84,7 +83,8 @@
         width: fit-content;
         position: relative;
         background: $Black;
-        transform: translate(2430%, -555%);
+        float: right;
+        transform: translate(-1070%, -505%);
 
         &:hover {
             background: $Very-Dark-Gray;

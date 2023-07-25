@@ -61,7 +61,6 @@ header .navbar ul li a:hover {
   height: 400px;
   width: 100%;
   top: -18px;
-  padding: auto;
 }
 .slider .swiper .swiper-wrapper .swiper-slide {
   height: -moz-fit-content;
@@ -122,6 +121,7 @@ header .navbar ul li a:hover {
   position: relative;
   background: hsl(0, 0%, 0%);
   float: right;
+  transform: translate(-1328%, -505%);
 }
 .slider .swiper-button-prev:hover {
   background: hsl(0, 0%, 27%);
@@ -132,7 +132,8 @@ header .navbar ul li a:hover {
   width: fit-content;
   position: relative;
   background: hsl(0, 0%, 0%);
-  transform: translate(2430%, -555%);
+  float: right;
+  transform: translate(-1070%, -505%);
 }
 .slider .swiper-button-next:hover {
   background: hsl(0, 0%, 27%);
