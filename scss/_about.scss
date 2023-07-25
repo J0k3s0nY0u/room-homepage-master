@@ -27,4 +27,12 @@
             color: $Dark-Gray;
         }
     }
+    &__image {
+        height: auto;
+        width: 1840px;
+        img {
+            width: 100%;
+            object-fit: scale-down;
+        }
+    }
 }

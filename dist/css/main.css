@@ -166,6 +166,15 @@ header .navbar ul li a:hover {
   line-height: 0.8rem;
   color: hsl(0, 0%, 63%);
 }
+.about__image {
+  height: auto;
+  width: 1840px;
+}
+.about__image img {
+  width: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
 
 @media screen and (max-width: 775px) {
   header .logo {
