@@ -187,7 +187,7 @@ header .navbar ul li a:hover {
      object-fit: scale-down;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 850px) {
   body {
     overflow-x: hidden;
   }

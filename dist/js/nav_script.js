@@ -5,7 +5,7 @@ const navBar = document.querySelector('.navbar');
 const menu = document.querySelector('.navbar__menu');
 const navList = document.querySelector('.navbar__list');
 
-let showMenu = false;
+let showMenu = true;
 
 hamburger.onclick = toggleNav = ()=>{
   if(showMenu) {

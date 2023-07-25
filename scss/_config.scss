@@ -13,7 +13,7 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
 }
 
 @mixin mobile {
-    @media screen and (max-width: 775px) {
+    @media screen and (max-width: 850px) {
         @content;
     }
 }
