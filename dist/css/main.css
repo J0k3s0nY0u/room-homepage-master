@@ -31,6 +31,7 @@ header .hamburger {
 header .logo {
   font-size: small !important;
   font-weight: bold;
+  cursor: pointer;
 }
 header .navbar ul {
   list-style-type: none;
@@ -194,9 +195,6 @@ header .navbar ul li a:hover {
   header .hamburger {
     visibility: visible;
     cursor: pointer;
-  }
-  header .hamburger.open {
-    visibility: hidden;
   }
   header .navbar {
     visibility: hidden;

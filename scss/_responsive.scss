@@ -11,13 +11,10 @@
             right: inherit;
             margin-left: 50%;
         }
+
         .hamburger {
             visibility: visible;
             cursor: pointer;
-
-            &.open {
-                visibility: hidden;
-            }
         }
         .navbar {
             visibility: hidden;
