@@ -72,7 +72,8 @@
         width: fit-content;
         position: relative;
         background: $Black;
-        transform: translate(2268%, -505%);
+        float: right;
+      //  transform: translate(2268%, -505%);
 
         &:hover {
             background: $Very-Dark-Gray;

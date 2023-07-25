@@ -121,7 +121,7 @@ header .navbar ul li a:hover {
   width: fit-content;
   position: relative;
   background: hsl(0, 0%, 0%);
-  transform: translate(2268%, -505%);
+  float: right;
 }
 .slider .swiper-button-prev:hover {
   background: hsl(0, 0%, 27%);
