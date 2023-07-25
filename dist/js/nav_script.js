@@ -7,7 +7,7 @@ const navList = document.querySelector('.navbar__list');
 
 let showMenu = false;
 
-hamburger.addEventListener('click', toggleNav = ()=>{
+hamburger.onclick = toggleNav = ()=>{
   if(showMenu) {
     hamburger.classList.add('open');
     closeBtn.classList.add('open');
@@ -21,4 +21,4 @@ hamburger.addEventListener('click', toggleNav = ()=>{
     menu.classList.remove('open');
     navList.classList.remove('open');
   }
-});
+};
