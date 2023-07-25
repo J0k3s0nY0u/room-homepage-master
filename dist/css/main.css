@@ -20,11 +20,12 @@ header {
   left: 50px;
   transform: translateY(50px);
 }
-header .hamburger {
+header .close {
   display: flex;
   visibility: hidden;
 }
-header .hamburger.open {
+header .hamburger {
+  display: flex;
   visibility: hidden;
 }
 header .logo {
@@ -192,6 +193,10 @@ header .navbar ul li a:hover {
   }
   header .hamburger {
     visibility: visible;
+    cursor: pointer;
+  }
+  header .hamburger.open {
+    visibility: hidden;
   }
   header .navbar {
     visibility: hidden;

@@ -13,6 +13,11 @@
         }
         .hamburger {
             visibility: visible;
+            cursor: pointer;
+
+            &.open {
+                visibility: hidden;
+            }
         }
         .navbar {
             visibility: hidden;

@@ -9,13 +9,14 @@ header {
     left: 50px;
     transform: translateY(50px);
 
+    .close {
+        display: flex;
+        visibility: hidden;
+    }
+
     .hamburger {
         display:flex;
         visibility: hidden;
-
-        &.open {
-            visibility: hidden;
-        }
     }
     .logo {
         font-size: small !important;
