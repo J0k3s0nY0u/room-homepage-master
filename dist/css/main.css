@@ -121,7 +121,7 @@ header .navbar ul li a:hover {
   position: relative;
   background: hsl(0, 0%, 0%);
   float: right;
-  transform: translate(-1328%, -505%);
+  transform: translate(-1355%, -505%);
 }
 .slider .swiper-button-prev:hover {
   background: hsl(0, 0%, 27%);
@@ -133,7 +133,7 @@ header .navbar ul li a:hover {
   position: relative;
   background: hsl(0, 0%, 0%);
   float: right;
-  transform: translate(-1070%, -505%);
+  transform: translate(-1090%, -505%);
 }
 .slider .swiper-button-next:hover {
   background: hsl(0, 0%, 27%);
@@ -195,9 +195,15 @@ header .navbar ul li a:hover {
     height: fit-content;
   }
   .slider .swiper .swiper-wrapper .swiper-slide {
+    flex-direction: column;
+  }
+  .slider .swiper .swiper-wrapper .swiper-slide .img-div {
     height: -moz-fit-content;
     height: fit-content;
-    flex-direction: column;
+  }
+  .slider .swiper .swiper-wrapper .swiper-slide .img-div img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .slider .swiper .swiper-wrapper .swiper-slide .words {
     height: 24rem;
@@ -216,12 +222,14 @@ header .navbar ul li a:hover {
     top: 100px;
   }
   .slider .swiper-button-prev {
-    transform: translate(1080%, -836%);
+    transform: translate(-1080%, -836%);
   }
   .slider .swiper-button-next {
-    transform: translate(1240%, -886%);
+    transform: translate(-1240%, -886%);
   }
   .about {
+    height: -moz-fit-content;
+    height: fit-content;
     align-items: center;
     flex-direction: column;
   }

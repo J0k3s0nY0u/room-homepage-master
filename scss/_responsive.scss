@@ -18,11 +18,18 @@
 
     .slider {
         height: fit-content;
+
         .swiper {
             .swiper-wrapper {
                 .swiper-slide {
-                    height: fit-content;
                     flex-direction: column;
+
+                    .img-div {
+                        height: fit-content;
+                        img {
+                            object-fit: cover;
+                        }
+                    }
 
                     .words {
                         height: 24rem;
@@ -47,14 +54,15 @@
             }
         }
         .swiper-button-prev {
-            transform: translate(1080%, -836%);
+            transform: translate(-1080%, -836%);
         }
         .swiper-button-next {
-            transform: translate(1240%, -886%);
+            transform: translate(-1240%, -886%);
         }
     }
 
     .about {
+        height: fit-content;
         align-items: center;
         flex-direction: column;
     }
