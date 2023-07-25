@@ -6,8 +6,8 @@ header {
     justify-content: space-between;
     color: $White;
     z-index: 1;
-    top: 50px;
     left: 50px;
+    transform: translateY(50px);
 
     .hamburger {
         display:flex;
