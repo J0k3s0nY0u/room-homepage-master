@@ -71,11 +71,13 @@
         width: fit-content;
         position: relative;
         background: $Black;
+        cursor: pointer;
         float: right;
         transform: translate(-1355%, -505%);
 
         &:hover {
             background: $Very-Dark-Gray;
+            cursor: pointer;
         }
     }
     .swiper-button-next {
@@ -83,11 +85,13 @@
         width: fit-content;
         position: relative;
         background: $Black;
+        cursor: pointer;
         float: right;
         transform: translate(-1090%, -505%);
 
         &:hover {
             background: $Very-Dark-Gray;
+            cursor: pointer;
         }
     }
 }

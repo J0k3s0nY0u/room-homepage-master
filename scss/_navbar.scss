@@ -19,6 +19,8 @@ header {
     }
 
     .hamburger {
+        height: fit-content;
+        width: fit-content;
         display:flex;
         visibility: hidden;
     }

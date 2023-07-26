@@ -16,15 +16,21 @@
             visibility: visible;
             cursor: pointer;
 
-            &.open {
+            & .open {
                 visibility: hidden;
             }
         }
         .navbar {
             visibility: hidden;
-
-            &.open {
+            & .open {
                 visibility: visible;
+                transition: ease-in;
+            }
+            
+            .navbar__menu {
+                &.open {
+                    flex-direction: column;
+                }
             }
         }
     }

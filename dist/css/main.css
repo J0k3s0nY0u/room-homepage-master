@@ -28,6 +28,10 @@ header .close.open {
   visibility: visible;
 }
 header .hamburger {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   visibility: hidden;
 }
@@ -128,11 +132,13 @@ header .navbar ul li a:hover {
   width: fit-content;
   position: relative;
   background: hsl(0, 0%, 0%);
+  cursor: pointer;
   float: right;
   transform: translate(-1355%, -505%);
 }
 .slider .swiper-button-prev:hover {
   background: hsl(0, 0%, 27%);
+  cursor: pointer;
 }
 .slider .swiper-button-next {
   color: hsl(0, 0%, 0%);
@@ -140,11 +146,13 @@ header .navbar ul li a:hover {
   width: fit-content;
   position: relative;
   background: hsl(0, 0%, 0%);
+  cursor: pointer;
   float: right;
   transform: translate(-1090%, -505%);
 }
 .slider .swiper-button-next:hover {
   background: hsl(0, 0%, 27%);
+  cursor: pointer;
 }
 
 .about {
@@ -199,14 +207,18 @@ header .navbar ul li a:hover {
     visibility: visible;
     cursor: pointer;
   }
-  header .hamburger.open {
+  header .hamburger .open {
     visibility: hidden;
   }
   header .navbar {
     visibility: hidden;
   }
-  header .navbar.open {
+  header .navbar .open {
     visibility: visible;
+    transition: ease-in;
+  }
+  header .navbar .navbar__menu.open {
+    flex-direction: column;
   }
   .slider {
     height: -moz-fit-content;
