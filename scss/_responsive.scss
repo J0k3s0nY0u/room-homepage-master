@@ -15,23 +15,22 @@
         .hamburger {
             visibility: visible;
             cursor: pointer;
-
-            & .open {
+            transition: ease-in-out;
+        }
+            .hamburger.open {
                 visibility: hidden;
             }
-        }
+        
         .navbar {
             visibility: hidden;
-            & .open {
+        }
+            .navbar.open {
                 visibility: visible;
                 transition: ease-in;
-            }
             
-            .navbar__menu {
-                &.open {
+            .navbar__menu.open {
                     flex-direction: column;
                 }
-            }
         }
     }
 

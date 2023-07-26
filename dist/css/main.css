@@ -206,18 +206,19 @@ header .navbar ul li a:hover {
   header .hamburger {
     visibility: visible;
     cursor: pointer;
+    transition: ease-in-out;
   }
-  header .hamburger .open {
+  header .hamburger.open {
     visibility: hidden;
   }
   header .navbar {
     visibility: hidden;
   }
-  header .navbar .open {
+  header .navbar.open {
     visibility: visible;
     transition: ease-in;
   }
-  header .navbar .navbar__menu.open {
+  header .navbar.open .navbar__menu.open {
     flex-direction: column;
   }
   .slider {
