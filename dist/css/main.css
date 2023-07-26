@@ -31,9 +31,6 @@ header .hamburger {
   display: flex;
   visibility: hidden;
 }
-header .hamburger.open {
-  visibility: hidden;
-}
 header .logo {
   font-size: small !important;
   font-weight: bold;
@@ -202,8 +199,14 @@ header .navbar ul li a:hover {
     visibility: visible;
     cursor: pointer;
   }
+  header .hamburger.open {
+    visibility: hidden;
+  }
   header .navbar {
     visibility: hidden;
+  }
+  header .navbar.open {
+    visibility: visible;
   }
   .slider {
     height: -moz-fit-content;

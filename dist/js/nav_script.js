@@ -3,7 +3,7 @@ const hamburger = document.querySelector(".hamburger");
 const closeBtn = document.querySelector(".close");
 const navBar = document.querySelector('.navbar');
 const menu = document.querySelector('.navbar__menu');
-const navList = document.querySelector('.navbar__list');
+const navList = document.querySelectorAll('.navbar__list');
 
 let showMenu = true;
 

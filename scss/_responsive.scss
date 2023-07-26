@@ -15,9 +15,17 @@
         .hamburger {
             visibility: visible;
             cursor: pointer;
+
+            &.open {
+                visibility: hidden;
+            }
         }
         .navbar {
             visibility: hidden;
+
+            &.open {
+                visibility: visible;
+            }
         }
     }
 

@@ -21,10 +21,6 @@ header {
     .hamburger {
         display:flex;
         visibility: hidden;
-
-        &.open {
-            visibility: hidden;
-        }
     }
     .logo {
         font-size: small !important;
