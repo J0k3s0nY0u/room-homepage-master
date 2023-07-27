@@ -212,7 +212,7 @@ header .navbar ul li a:hover {
     visibility: hidden;
   }
   header .navbar {
-    visibility: visible;
+    visibility: hidden;
   }
   header .navbar.open {
     visibility: visible;
